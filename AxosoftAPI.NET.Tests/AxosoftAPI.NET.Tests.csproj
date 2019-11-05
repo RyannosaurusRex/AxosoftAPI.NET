@@ -92,12 +92,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AxosoftAPI.NET\AxosoftAPI.NET.csproj">
-      <Project>{38e2891f-f38e-4ca4-ad6a-33aab944eb85}</Project>
-      <Name>AxosoftAPI.NET</Name>
+    <ProjectReference Include="..\AxosoftAPI.NET\AxosoftAPI.NET.Core.csproj">
+      <Project>{ca94da11-f532-41ce-9148-c2986e68cb3b}</Project>
+      <Name>AxosoftAPI.NET.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
